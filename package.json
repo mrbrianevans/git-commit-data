@@ -1,0 +1,21 @@
+{
+  "name": "git-commits",
+  "version": "1.0.0",
+  "description": "Read git commits exported in JSON format using git log",
+  "main": "readData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git-commits"
+  ],
+  "author": "Brian Evans",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2",
+    "timer-logs": "^1.6.0"
+  },
+  "type": "module"
+}
